@@ -1366,7 +1366,7 @@ ium e.g. particulate matter within air.
       </h:p>
       <h:p>
         <m:math>
-            <m:row>
+            <m:mrow>
                 <m:msub>
                     <m:mi>E</m:mi>
                     <m:mi>h</m:mi>  
