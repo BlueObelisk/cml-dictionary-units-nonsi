@@ -5,6 +5,7 @@
         title="non SI units dictionary"
         xmlns="http://www.xml-cml.org/schema"
         xmlns:h="http://www.w3.org/1999/xhtml"
+        xmlns:m="http://www.w3.org/1998/Math/MathML"
         xmlns:siUnits="http://www.xml-cml.org/unit/si/"
         xmlns:unitType="http://www.xml-cml.org/unit/unitType/"
         xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -19,6 +20,7 @@
     <dc:contributor>Nick England</dc:contributor>
     <dc:contributor>Sebastian Breuers</dc:contributor>
     <dc:contributor>Hannah Barjat</dc:contributor>
+    <dc:contributor>Jens Thomas</dc:contributor>
 
 
     <description>
@@ -1353,6 +1355,43 @@ ium e.g. particulate matter within air.
       </h:p>
     </description>
   </unit>
+  
+  <unit title="Hartree" id="hartree" symbol="Eh" parentSI="siUnits:joule"
+    multiplierToSI="4.35974434E-18" unitType="unitType:energy">
+    <dc:source>Wikipedia</dc:source>
+    <dc:creator>Jens Thomas</dc:creator>
+    <definition>
+      <h:p>        
+        The Hartree is the atomic unit of energy, and is defined as:
+      </h:p>
+      <h:p>
+        <m:math>
+            <m:row>
+                <m:msub>
+                    <m:mi>E</m:mi>
+                    <m:mi>h</m:mi>  
+                </m:msub>
+                <m:mo>=</m:mo>
+                <m:mn>2</m:mn>
+                <m:msub>
+                    <m:mi>R</m:mi>
+                    <m:mi>&#x221E;</m:mi>
+                </m:msub>
+                <m:mi>h</m:mi>
+                <m:mi>c</m:mi>
+            </m:mrow>
+        </m:math>
+      </h:p>
+      <h:p>where R is the Rydberg constant, h the Plank constant and c the speed of light.</h:p>
+    </definition>
+    <description>
+      <h:p>
+        The Hartree is named after the British physicst Douglas Hartree, and is approximately the electric potential energy of the hydrogen atom in its ground state and, by the virial theorem, approximately twice its ionization energy; the relationships are not exact because of the finite mass of the nucleus of the hydrogen atom and relativistic corrections.
+      </h:p>
+    </description>
+  </unit>
+  
+  
 
 <!-- power -->
 
