@@ -794,6 +794,22 @@ ium e.g. particulate matter within air.
       </h:p>    </description>
   </unit>
 
+  <unit title="millimole" id="millimol" symbol="mmol"
+    parentSI="siUnits:mol" multiplierToSI="1E-3"    unitType="unitType:amount">
+    <dc:source>Wikipedia</dc:source>
+    <dc:creator>Hannah Barjat</dc:creator>
+    <definition>
+      <h:p>
+        10<h:sup>-3</h:sup> of a mole
+      </h:p>
+    </definition>
+    <description>
+      <h:p>
+        10<h:sup>-3</h:sup> of a mole.
+      </h:p>    
+	</description>
+  </unit>
+  
  <!-- time -->
  
   <unit title="Julian Year" id="julian_year" symbol="a_j"
