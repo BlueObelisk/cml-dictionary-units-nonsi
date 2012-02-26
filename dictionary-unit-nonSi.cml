@@ -1312,6 +1312,23 @@ ium e.g. particulate matter within air.
     </description>
   </unit>
 
+<!--  charge -->
+
+  <unit title="elementary charge" id="elementary_charge" symbol="e"
+    parentSI="siUnits:coulomb" multiplierToSI="1.602176565E-19" unitType="unitType:electric_charge">
+    <dc:source>Wikipedia</dc:source>
+    <dc:creator>Jens Thomas</dc:creator>
+    <definition>
+      <h:p>
+        The elementary charge, is the electric charge carried by a single proton, or equivalently, 
+        the negation (opposite) of the electric charge carried by a single electron.
+    </h:p>
+    </definition>
+    <description>
+    <h:a href="http://en.wikipedia.org/wiki/Elementary_charge">wikipedia entry</h:a>
+    </description>
+  </unit>
+
 <!-- force -->
 
   <unit
@@ -1401,9 +1418,11 @@ ium e.g. particulate matter within air.
       <h:p>where R is the Rydberg constant, h the Plank constant and c the speed of light.</h:p>
     </definition>
     <description>
-      <h:p>
-        The Hartree is named after the British physicst Douglas Hartree, and is approximately the electric potential energy of the hydrogen atom in its ground state and, by the virial theorem, approximately twice its ionization energy; the relationships are not exact because of the finite mass of the nucleus of the hydrogen atom and relativistic corrections.
-      </h:p>
+      <h:p>The Hartree is named after the British physicst Douglas Hartree, and is approximately 
+      the electric potential energy of the hydrogen atom in its ground state and, by the virial theorem, 
+      approximately twice its ionization energy; the relationships are not exact because of the finite mass 
+      of the nucleus of the hydrogen atom and relativistic corrections.</h:p>
+      <h:a href="http://en.wikipedia.org/wiki/Hartree">wikipedia entry</h:a>
     </description>
   </unit>
   
